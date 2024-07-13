@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="grid min-h-screen w-full place-items-center bg-gray-900">
+      <div
+        class="absolute left-1/2 top-1/2 h-96 w-80 -translate-x-1/2 -translate-y-1/2 rotate-6 rounded-2xl 
+        bg-gray-400"></div>
+
+      <div
+        class="absolute left-1/2 top-1/2 h-96 w-80 -translate-x-1/2 -translate-y-1/2 rotate-6 space-y-6 
+        rounded-2xl bg-gray-100 p-6 transition duration-300 hover:rotate-0">
+
+        <div class="flex justify-end">
+          <div class="h-4 w-4 rounded-full bg-gray-900"></div>
+        </div>
+
+        <header class="text-center text-xl font-extrabold text-gray-600">
+          08-10-2023
+        </header>
+
+        <div>
+          <p class="text-center text-5xl font-extrabold text-gray-900">
+            Profile <span class="text-[#7f00ff]"> (Git Hub)</span>
+          </p>
+          <p class="text-center text-2xl font-semibold mt-5">@jigar-kodiyatar</p>
+        </div>
+
+        <footer class="mb-10 flex justify-center">
+          <button
+            class="flex items-baseline gap-2 rounded-lg bg-[#7f00ff] px-4 py-2.5 text-xl font-bold 
+            text-white hover:bg-[#8A2BE2]"
+            onclick="openLink()">
+            <span>Open</span>
+            <i class="fas fa-hand-peace text-xl"></i>
+          </button>
+        </footer>
+      </div>
+    </main>
+    <script>
+      function openLink() {
+        window.location.href = "https://github.com/Jigar-kodiyatar";
+      }
+    </script>
+  </body>
+</html>
